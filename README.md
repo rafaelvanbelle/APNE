@@ -1,6 +1,10 @@
 ## APNE - Personal Comments  
 
+- the algorithm is not inductive --> Requires node features which are transformed into feature embeddings and finally multiplied with node embeddings. The node embedding and feature embedding matrices have fixed dimensions!
 
+- The algorithm relies solely on matrix factorization, however from an abstract point of view it resembles very much the workings of GCN alggorithms. I wouldn't invest too much time in making this work. 
+
+- The code is written in C and is very hard to read. There is no python version available of the explicit matrix factorization algorithm used as part of the APNE algorithm. Hence, it might be difficult to apply to our use case!
 
 ## APNE
 This project contains code related to the paper "Enhancing Network Embedding with Auxiliary Information: An Explicit Matrix Factorization Perspective".
