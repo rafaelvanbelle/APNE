@@ -1,3 +1,7 @@
+## APNE - Personal Comments  
+
+
+
 ## APNE
 This project contains code related to the paper "Enhancing Network Embedding with Auxiliary Information: An Explicit Matrix Factorization Perspective".
 APNE (Auxiliary information Preserved Netork Embedding) is a graph/network embedding method that can incorporate the structure information,
